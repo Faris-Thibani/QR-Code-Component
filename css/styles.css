@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/* Custom Properties */
+
+:root {
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+
+/* Utility Classes */
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+.flex{
+    display:flex;
+}
+
+/* Styles */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card-container{
+    width: 307px;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: white;
+}
+.card-wrapper{
+    align-items: center;
+    height: 100vh;
+    background-color: var(--lightGray);
+}
+
+.image1{
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.heading{
+    line-height: 1.3em ;
+    margin-bottom: .8em;
+}
+.sub-heading{
+    line-height: 1.4em;
+    color: var(--grayishBlue);
+    margin-bottom: 1em;
+}
